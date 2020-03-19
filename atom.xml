@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chnevergiveup.github.io</id>
     <title>DreamSunlight</title>
-    <updated>2020-03-19T16:55:19.062Z</updated>
+    <updated>2020-03-19T17:08:01.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chnevergiveup.github.io"/>
     <link rel="self" href="https://chnevergiveup.github.io/atom.xml"/>
@@ -18,10 +18,14 @@
         <updated>2020-03-19T16:36:23.000Z</updated>
         <content type="html"><![CDATA[<h4 id="本次使用的阿里云服务器实例ubuntu使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中">本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。</h4>
 <h6 id="1首先使用tcpdump命令打开抓包进程进行抓包">（1）首先使用tcpdump命令打开抓包进程进行抓包</h6>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump1.png" alt="tcpdump1" loading="lazy"></figure>
 <h6 id="2然后运行服务器程序和客户端程序其中1721738119是用的云服务器的内网的ip地址">（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的云服务器的内网的ip地址</h6>
+<p><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump2.png" alt="tcpdump2" loading="lazy"><br>
+<img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump3.png" alt="tcpdump3" loading="lazy"></p>
 <h6 id="3关闭tcpdump进程">（3）关闭tcpdump进程</h6>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump4.PNG" alt="tcpdump4" loading="lazy"></figure>
 <h6 id="4将获得的testcap文件拷贝到windows下用wiresharp打开即可获得捕获的数据包">（4）将获得的test.cap文件拷贝到windows下用wiresharp打开，即可获得捕获的数据包</h6>
-<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>

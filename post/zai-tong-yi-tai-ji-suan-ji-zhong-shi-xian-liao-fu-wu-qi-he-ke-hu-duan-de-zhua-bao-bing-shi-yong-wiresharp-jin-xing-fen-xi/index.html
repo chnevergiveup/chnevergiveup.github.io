@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析 | DreamSunlight</title>
-<link rel="shortcut icon" href="https://chnevergiveup.github.io/favicon.ico?v=1584636910776">
+<link rel="shortcut icon" href="https://chnevergiveup.github.io/favicon.ico?v=1584637666588">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://chnevergiveup.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析 | DreamSunlight - Atom Feed" href="https://chnevergiveup.github.io/atom.xml">
@@ -13,7 +13,8 @@
 
     <meta name="description" content="本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。
 （1）首先使用tcpdump命令打开抓包进程进行抓包
-（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的..." />
+
+（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -23,7 +24,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://chnevergiveup.github.io">
-  <img class="avatar" src="https://chnevergiveup.github.io/images/avatar.png?v=1584636910776" alt="">
+  <img class="avatar" src="https://chnevergiveup.github.io/images/avatar.png?v=1584637666588" alt="">
   </a>
   <h1 class="site-title">
     DreamSunlight
@@ -92,10 +93,14 @@
               <div class="post-content">
                 <h4 id="本次使用的阿里云服务器实例ubuntu使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中">本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。</h4>
 <h6 id="1首先使用tcpdump命令打开抓包进程进行抓包">（1）首先使用tcpdump命令打开抓包进程进行抓包</h6>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump1.png" alt="tcpdump1" loading="lazy"></figure>
 <h6 id="2然后运行服务器程序和客户端程序其中1721738119是用的云服务器的内网的ip地址">（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的云服务器的内网的ip地址</h6>
+<p><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump2.png" alt="tcpdump2" loading="lazy"><br>
+<img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump3.png" alt="tcpdump3" loading="lazy"></p>
 <h6 id="3关闭tcpdump进程">（3）关闭tcpdump进程</h6>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/tcpdump4.PNG" alt="tcpdump4" loading="lazy"></figure>
 <h6 id="4将获得的testcap文件拷贝到windows下用wiresharp打开即可获得捕获的数据包">（4）将获得的test.cap文件拷贝到windows下用wiresharp打开，即可获得捕获的数据包</h6>
-<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/master/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
 
               </div>
               <div class="toc-container">
