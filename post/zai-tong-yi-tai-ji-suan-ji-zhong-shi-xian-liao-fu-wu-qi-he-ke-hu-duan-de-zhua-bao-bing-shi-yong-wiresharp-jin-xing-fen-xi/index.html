@@ -2,19 +2,18 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>第一次尝试使用博客 | DreamSunlight</title>
+<title>在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析 | DreamSunlight</title>
 <link rel="shortcut icon" href="https://chnevergiveup.github.io/favicon.ico?v=1584636910776">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://chnevergiveup.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="第一次尝试使用博客 | DreamSunlight - Atom Feed" href="https://chnevergiveup.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析 | DreamSunlight - Atom Feed" href="https://chnevergiveup.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="初尝试
-我是一个小可爱，这是我第一次尝试使用github
-也许我有点菜，但是我会继续努力的
-" />
+    <meta name="description" content="本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。
+（1）首先使用tcpdump命令打开抓包进程进行抓包
+（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -77,11 +76,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              第一次尝试使用博客
+              在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析
             </h2>
             <div class="post-info">
               <span>
-                2020-03-09
+                2020-03-20
               </span>
               <span>
                 1 min read
@@ -91,9 +90,12 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h3 id="初尝试">初尝试</h3>
-<p><strong>我是一个小可爱，这是我第一次尝试使用github</strong></p>
-<h2 id="也许我有点菜但是我会继续努力的">也许我有点菜，但是我会继续努力的</h2>
+                <h4 id="本次使用的阿里云服务器实例ubuntu使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中">本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。</h4>
+<h6 id="1首先使用tcpdump命令打开抓包进程进行抓包">（1）首先使用tcpdump命令打开抓包进程进行抓包</h6>
+<h6 id="2然后运行服务器程序和客户端程序其中1721738119是用的云服务器的内网的ip地址">（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的云服务器的内网的ip地址</h6>
+<h6 id="3关闭tcpdump进程">（3）关闭tcpdump进程</h6>
+<h6 id="4将获得的testcap文件拷贝到windows下用wiresharp打开即可获得捕获的数据包">（4）将获得的test.cap文件拷贝到windows下用wiresharp打开，即可获得捕获的数据包</h6>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
 
               </div>
               <div class="toc-container">
@@ -102,10 +104,21 @@
 <ul>
 <li>
 <ul>
-<li><a href="#%E5%88%9D%E5%B0%9D%E8%AF%95">初尝试</a></li>
+<li>
+<ul>
+<li><a href="#%E6%9C%AC%E6%AC%A1%E4%BD%BF%E7%94%A8%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E4%BE%8Bubuntu%E4%BD%BF%E7%94%A8rz%E5%91%BD%E4%BB%A4%E9%80%9A%E8%BF%87ssh%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B0%86%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%A8%8B%E5%BA%8F%E4%B8%8A%E4%BC%A0%E5%88%B0ubuntu%E4%B8%AD">本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。</a><br>
+*
+<ul>
+<li><a href="#1%E9%A6%96%E5%85%88%E4%BD%BF%E7%94%A8tcpdump%E5%91%BD%E4%BB%A4%E6%89%93%E5%BC%80%E6%8A%93%E5%8C%85%E8%BF%9B%E7%A8%8B%E8%BF%9B%E8%A1%8C%E6%8A%93%E5%8C%85">（1）首先使用tcpdump命令打开抓包进程进行抓包</a></li>
+<li><a href="#2%E7%84%B6%E5%90%8E%E8%BF%90%E8%A1%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%A8%8B%E5%BA%8F%E5%92%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%A8%8B%E5%BA%8F%E5%85%B6%E4%B8%AD1721738119%E6%98%AF%E7%94%A8%E7%9A%84%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%86%85%E7%BD%91%E7%9A%84ip%E5%9C%B0%E5%9D%80">（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的云服务器的内网的ip地址</a></li>
+<li><a href="#3%E5%85%B3%E9%97%ADtcpdump%E8%BF%9B%E7%A8%8B">（3）关闭tcpdump进程</a></li>
+<li><a href="#4%E5%B0%86%E8%8E%B7%E5%BE%97%E7%9A%84testcap%E6%96%87%E4%BB%B6%E6%8B%B7%E8%B4%9D%E5%88%B0windows%E4%B8%8B%E7%94%A8wiresharp%E6%89%93%E5%BC%80%E5%8D%B3%E5%8F%AF%E8%8E%B7%E5%BE%97%E6%8D%95%E8%8E%B7%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8C%85">（4）将获得的test.cap文件拷贝到windows下用wiresharp打开，即可获得捕获的数据包</a></li>
 </ul>
 </li>
-<li><a href="#%E4%B9%9F%E8%AE%B8%E6%88%91%E6%9C%89%E7%82%B9%E8%8F%9C%E4%BD%86%E6%98%AF%E6%88%91%E4%BC%9A%E7%BB%A7%E7%BB%AD%E5%8A%AA%E5%8A%9B%E7%9A%84">也许我有点菜，但是我会继续努力的</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -115,6 +128,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://chnevergiveup.github.io/post/ru-he-da-jian-bo-ke/">
+              <h3 class="post-title">
+                第一次尝试使用博客
+              </h3>
+            </a>
+          </div>
         
 
         

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chnevergiveup.github.io</id>
     <title>DreamSunlight</title>
-    <updated>2020-03-10T08:18:57.141Z</updated>
+    <updated>2020-03-19T16:55:19.062Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chnevergiveup.github.io"/>
     <link rel="self" href="https://chnevergiveup.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://chnevergiveup.github.io/images/avatar.png</logo>
     <icon>https://chnevergiveup.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, DreamSunlight</rights>
+    <entry>
+        <title type="html"><![CDATA[在同一台计算机中实现了服务器和客户端的抓包，并使用wiresharp进行分析]]></title>
+        <id>https://chnevergiveup.github.io/post/zai-tong-yi-tai-ji-suan-ji-zhong-shi-xian-liao-fu-wu-qi-he-ke-hu-duan-de-zhua-bao-bing-shi-yong-wiresharp-jin-xing-fen-xi/</id>
+        <link href="https://chnevergiveup.github.io/post/zai-tong-yi-tai-ji-suan-ji-zhong-shi-xian-liao-fu-wu-qi-he-ke-hu-duan-de-zhua-bao-bing-shi-yong-wiresharp-jin-xing-fen-xi/">
+        </link>
+        <updated>2020-03-19T16:36:23.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="本次使用的阿里云服务器实例ubuntu使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中">本次使用的阿里云服务器实例Ubuntu，使用rz命令通过ssh客户端将服务器和客户端程序上传到ubuntu中。</h4>
+<h6 id="1首先使用tcpdump命令打开抓包进程进行抓包">（1）首先使用tcpdump命令打开抓包进程进行抓包</h6>
+<h6 id="2然后运行服务器程序和客户端程序其中1721738119是用的云服务器的内网的ip地址">（2）然后运行服务器程序和客户端程序，其中172.17.38.119是用的云服务器的内网的ip地址</h6>
+<h6 id="3关闭tcpdump进程">（3）关闭tcpdump进程</h6>
+<h6 id="4将获得的testcap文件拷贝到windows下用wiresharp打开即可获得捕获的数据包">（4）将获得的test.cap文件拷贝到windows下用wiresharp打开，即可获得捕获的数据包</h6>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/chnevergiveup/Picbed_PicGo/TIM%E5%9B%BE%E7%89%8720200320005049.jpg" alt="testcap" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一次尝试使用博客]]></title>
         <id>https://chnevergiveup.github.io/post/ru-he-da-jian-bo-ke/</id>
